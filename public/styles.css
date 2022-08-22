@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: whitesmoke;
+  overflow-x: hidden;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar {
+  width: 100vw;
+  height: 70px;
+  background-color: rgba(255, 255, 255, 0.397);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.nav_wrapper {
+  margin: 0 auto;
+  width: inherit;
+  max-width: 1180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  user-select: none;
+}
+
+.hero {
+  background-image: url('https://images.pexels.com/photos/265722/pexels-photo-265722.jpeg?auto=compress&cs=tinysrgb&w=1200');
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-shadow: 2px 2px 1px white;
+}
+.hero h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 64px;
+}
+.hero button {
+  height: 50px;
+  width: 150px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: inherit;
+  font-family: inherit;
+  border: none;
+  outline: none;
+  margin-top: 20pxs;
+  border-radius: 20px;
+  box-shadow: 0 0 5px white;
+}
+.hero button:hover {
+  background-color: whitesmoke;
+  color: black;
+  box-shadow: 0 0 5px black;
+}
+section {
+  width: inherit;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 40px 0px;
+}
+section h1 {
+  text-align: center;
+  font-size: 24px;
+}
+.daftar_tamu_table {
+  width: 100%;
+}
+th {
+  text-align: left;
+  height: 40px;
+}
+table,
+th,
+td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th,
+td {
+  background-color: #96d4d4;
+}

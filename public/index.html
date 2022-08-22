@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>buku tamu</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav_wrapper">
+        <h1>Suroso & Eni</h1>
+        <h3>Buku Tamu</h3>
+      </div>
+    </nav>
+
+    <main>
+      <div class="hero">
+        <h3>Pernikahan</h3>
+        <h1>Suroso & Eni</h1>
+        <h3>Surakarta, 32 Agustus 2022</h3>
+        <button onclick="isiBukuTamu()">Isi Buku Tamu</button>
+      </div>
+
+      <section>
+        <h1>Daftar Tamu</h1>
+        <table class="daftar_tamu_table">
+          <thead>
+            <tr>
+              <th style="text-align: center">No</th>
+              <th style="text-align: center">Nama Lengkap</th>
+              <th style="text-align: center">Alamat</th>
+              <th style="text-align: center">keterangan</th>
+            </tr>
+          </thead>
+          <tbody id="tbody">
+            <!-- RENDERING FROM JAVASCRIPT -->
+            <!-- <tr>
+              <td>1</td>
+              <td>Fakhri Azra</td>
+              <td>Pemalang</td>
+              <td style="text-align: center">PT Jvalley</td>
+            </tr> -->
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
